@@ -1,0 +1,353 @@
+header {
+    height: 823px;
+    background-color: #BCEDA7;
+    position: relative;
+
+
+}
+
+nav {
+    padding-top: 50px;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    font-size: 2rem;
+}
+
+nav>ul>li {
+    padding: 0 35px;
+    font-weight: 700;
+}
+
+nav>ul>li:first-child {
+    padding: 26px 30px;
+    background-color: #8DD76D;
+    border-radius: 1.6rem;
+}
+
+header img {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+header h2 {
+    font-size: 6.6rem;
+    color: #2C9300;
+    -webkit-text-stroke: 1px #000;
+    padding-top: 180px;
+}
+
+header h3 {
+    font-size: 2.5rem;
+    font-weight: 500;
+
+}
+
+header menu {
+    display: flex;
+    margin: 40px 0;
+}
+
+
+header menu .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header menu>button {
+    font-size: 2.5rem;
+    padding: 10px 60px;
+    border-radius: 50px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    outline: none;
+    border: none;
+    font-weight: 550;
+    margin-right: 50px;
+}
+
+.box {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: #8DD76D;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header menu .btn i {
+    font-size: 2.6rem;
+    position: absolute;
+    left: 18px;
+    opacity: 0.6;
+}
+
+header menu .btn p {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+header .group menu {
+    display: flex;
+    margin: 15px 0;
+}
+
+header .group menu i {
+    font-size: 1.5rem;
+    color: #41B70F;
+}
+
+header .group p:nth-child(2) {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+header .group P:last-child {
+    font-size: 1.2rem;
+}
+
+.group {
+    margin-top: 50px;
+}
+
+#product,
+#certificates,
+#aboutus {
+    text-align: center;
+}
+
+#product h2,
+#certificates h2,
+#aboutus h2 {
+    font-size: 4.8rem;
+    margin: 50px 0 20px;
+}
+
+#product p,
+#certificates p,
+#aboutus p {
+    font-size: 2.4rem;
+}
+
+#aboutus .card {
+    text-align: start;
+}
+
+.card {
+    display: block;
+    margin-top: 80px;
+}
+
+.card i {
+    float: left;
+    font-size: 3rem;
+    height: 300px;
+    width: 40px;
+    color: #2C9300;
+}
+
+#aboutus .card>h3 {
+    font-size: 2.6rem;
+    margin: 0 40px 10px;
+}
+
+#aboutus .card>p {
+    font-size: 1.6rem;
+    color: #3E3E3E;
+    width: 300px;
+}
+
+#cta {
+    background: url("../img/image\ 1.png") top center / cover no-repeat;
+    height: 200px;
+    color: var(--white-color);
+    text-align: center;
+}
+
+#cta menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+#cta menu p {
+    font-size: 2rem;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+#contact button,
+#cta-large button,
+#cta menu button {
+    background-color: #3BAF0A;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 1.6rem;
+    color: var(--white-color);
+    border-radius: 40px;
+    font-weight: 600;
+}
+
+#certificates .card img {
+    width: 70%;
+}
+
+#cta-large {
+    background: url(" ../img/image\ 2.png") center / cover no-repeat;
+    height: 400px;
+    margin-top: 40px;
+    text-align: center;
+    color: var(--white-color);
+}
+
+#cta-large h3 {
+    font-size: 4rem;
+    padding-top: 100px;
+}
+
+#cta-large p {
+    font-size: 2.6rem;
+    margin: 30px 0 50px;
+}
+
+#product h2 {
+    margin-top: 100px;
+}
+
+#product .card h3 {
+    font-size: 2rem;
+}
+
+
+#product .card p {
+    font-size: 2rem;
+}
+
+#contact {
+    background-color: #F5F5F5;
+
+    margin-top: 100px;
+}
+
+
+.elip {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .btn-1 i {
+    font-size: 2.5rem;
+}
+
+#contact .btn-1 p {
+    font-size: 2rem;
+    margin-left: 15px;
+}
+
+#contact .btn-1 {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#contact img {
+    width: 100%;
+}
+
+#contact h2 {
+    font-size: 4rem;
+    padding: 80px 0;
+}
+
+#contact h3 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+#contact input {
+    height: 30px;
+    width: 100%;
+    margin: 30px 0;
+    outline: none;
+    border: 1px solid #D0D0D0;
+    padding: 20px 16px;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+#contact .w-text {
+    height: 300px;
+}
+
+footer {
+    background-color: #2C9300;
+
+    color: var(--white-color);
+    padding: 80px 0 0 0;
+    margin-top: 50px;
+}
+
+footer .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+footer .logo img {
+    width: 50px;
+}
+
+footer .logo h3 {
+    margin-left: 20px;
+}
+
+footer h2 {
+    margin-bottom: 50px;
+}
+
+footer h2,
+footer .logo h3 {
+    font-size: 2.5rem;
+}
+
+footer p {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+footer span {
+
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px 0;
+    border-top: 1px solid var(--white-color);
+    display: block;
+}
